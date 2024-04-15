@@ -29,15 +29,17 @@ Usei a própria ferramenta com a opção `Optical character recognition` para id
 
 ![Img](./inputs/vision_studio_options.png)
 
-![Img](./inputs/recognize_menu_options_vision_studio.png)
+![Img](./outputs/recognize_menu_options_vision_studio.png)
 
 Ao ver o resultado, é possível perceber que os menus foram identificados, porém, a identificação não leva em consideração elementos da página pra dividir qual palavra representa qual menu: como resultado, o reconhecimento identificou `Opticalcharacterrecognition` numa linha e `SpatialanalysisFaceImageanalysis` em outra, como se fossem 2 menus apenas.
 
 ----
 
-No caso de reconhecimento de cartas manuscritas, maioria do texto foi reconhecido, havendo trocas dentro do esperado. Ex.: letra `O` pelo número `0`, `0` por `@` , `áci` por `an`.
+No caso de reconhecimento de cartas manuscritas, maioria do texto foi reconhecido(acredito que minha letra colaborou para o não-reconhecimento de algumas partes ^.^"), havendo trocas por outros caracteres mas dentro do esperado.
+Ex.: letra `O` pelo número `0`, `0` por `@` , `áci` por `an`.
 
-![Img](./inputs/recognize_texto_carta.png)
+![Img](./inputs/carta_sindicato_escrita_a_mao.png)
+![Img](./outputs/recognize_texto_carta.png)
 
 
 Tanto reconhecimento de caracteres impessos quanto manuscritos tem uma boa taxa de acerto, o que leva a pensar que podem ser ótimas ferramentas para digitalização e categorização de arquivos, ou mesmo de uma base de conhecimento, que poderia inclusive, servir de base de conhecimento a um chatbot, facilitando tratativa de problemas, por exempplo.
@@ -46,17 +48,17 @@ Tanto reconhecimento de caracteres impessos quanto manuscritos tem uma boa taxa 
 
 Para opção Face, percebi que os rostos quando não direcionados a câmera ou em imagem com cores similares e muito ruído não foram reconhecidos.
 
-![Img](./inputs/partial_faces_detected.png)
+![Img](./outputs/partial_faces_detected.png)
 
-![Img](./inputs/1_no_face_detected.png)
+![Img](./outputs/1_no_face_detected.png)
 
 ----
 
 Porém, com a opção Image analysis(Add captions to images) isto não foi problema, sendo uma boa opção para acessibilidade por exemplo, por dar contextos acertivos as imagens testadas.
 
-![Img](./inputs/caption_a_cartoon_of_a_man.png)
+![Img](./outputs/caption_a_cartoon_of_a_man.png)
 
-![Img](./inputs/caption_a_group_of_person.png)
+![Img](./outputs/caption_a_group_of_person.png)
 
-![Img](./inputs/caption_to_gif_and_low_definition.png)
+![Img](./outputs/caption_to_gif_and_low_definition.png)
 
